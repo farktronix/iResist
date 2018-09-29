@@ -12,6 +12,9 @@
 		4320C70821601EF100C92F73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4320C70621601EF100C92F73 /* Main.storyboard */; };
 		4320C70A21601EF200C92F73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4320C70921601EF200C92F73 /* Assets.xcassets */; };
 		4320C70D21601EF200C92F73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4320C70B21601EF200C92F73 /* LaunchScreen.storyboard */; };
+		4320C7152160312100C92F73 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4320C7142160312100C92F73 /* ColorPickerView.swift */; };
+		4320C7172160319500C92F73 /* ColorPickerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4320C7162160319500C92F73 /* ColorPickerDataSource.swift */; };
+		4320C719216034CE00C92F73 /* Resistor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4320C718216034CE00C92F73 /* Resistor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		4320C70921601EF200C92F73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4320C70C21601EF200C92F73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4320C70E21601EF200C92F73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4320C7142160312100C92F73 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		4320C7162160319500C92F73 /* ColorPickerDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerDataSource.swift; sourceTree = "<group>"; };
+		4320C718216034CE00C92F73 /* Resistor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resistor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 			children = (
 				4320C70221601EF100C92F73 /* AppDelegate.swift */,
 				4320C70421601EF100C92F73 /* ViewController.swift */,
+				4320C7142160312100C92F73 /* ColorPickerView.swift */,
+				4320C7162160319500C92F73 /* ColorPickerDataSource.swift */,
+				4320C718216034CE00C92F73 /* Resistor.swift */,
 				4320C70621601EF100C92F73 /* Main.storyboard */,
 				4320C70921601EF200C92F73 /* Assets.xcassets */,
 				4320C70B21601EF200C92F73 /* LaunchScreen.storyboard */,
@@ -137,6 +146,9 @@
 			files = (
 				4320C70521601EF100C92F73 /* ViewController.swift in Sources */,
 				4320C70321601EF100C92F73 /* AppDelegate.swift in Sources */,
+				4320C719216034CE00C92F73 /* Resistor.swift in Sources */,
+				4320C7172160319500C92F73 /* ColorPickerDataSource.swift in Sources */,
+				4320C7152160312100C92F73 /* ColorPickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
