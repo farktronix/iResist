@@ -1,0 +1,10 @@
+language: swift
+xcode_project: iResist.xcodeproj
+xcode_scheme: iResist 
+os: osx
+osx_image: xcode10
+script: 
+    - ./xcodebuild.sh
+git:
+  depth: 3
+rvm: 2.3.5
